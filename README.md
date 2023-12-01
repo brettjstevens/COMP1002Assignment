@@ -1,6 +1,8 @@
 # Data Structures and Algorithms Assignment
 Java assignment completed in COMP1002 : Data Structures and Algorithms unit  @ Curtin 2019
 
+This project contains the java construction of a linked list, heap and graph data structures. A heap search algorithm has been implemented. The data structures and algorithms are used in the implementation of a social media simulation. 
+
 <h2>How to Run:</h2>
 This project was split into four distinct parts: 
 
@@ -31,7 +33,7 @@ Run in terminal:
 ```
 java UnitTestHeap
 ```
-Test results will be output to terminal.
+Test results will be output to terminal. The `RandomNames7000.csv` file will be sorted using "heap sort" and output to `SortedFile.txt`
 
 <h3>Graph</h3>
 Run in terminal: 
