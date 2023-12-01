@@ -14,7 +14,7 @@ public class SocialSim
 		{
 			if(args.length == 0)
 			{
-				System.out.println("usage info");
+				System.out.println("To go to interactive mode type: java Social Sim -i");
 			}
 			else if(args[0].equals("-i"))
 			{
