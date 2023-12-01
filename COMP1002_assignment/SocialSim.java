@@ -22,6 +22,7 @@ public class SocialSim
 				
 				ui.mainMenu();
 			}
+			//not implemented
 			else if((args.length == 5) && (args[0].equals("-s")))
 			{
 				simulation sim = new simulation();
