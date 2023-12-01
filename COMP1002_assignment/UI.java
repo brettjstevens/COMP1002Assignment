@@ -32,15 +32,15 @@ public class UI
 			{
 				System.out.println("		Menu:\n" +
 									"1. Load networks\n" +
-									"2. Set probabilities\n" +
-									"3. Node operations (find, insert, delete)\n" +
-									"4. Edge operations (follow - add, remove)\n" +
-									"5. New post\n" +
-									"6. Display network\n" +
-									"7. Display statistics\n" +
+									//"2. Set probabilities\n" +
+									"2. Node operations (find, insert, delete)\n" +
+									"3. Edge operations (follow - add, remove)\n" +
+									//"5. New post\n" +
+									"4. Display network\n" +
+									/* "7. Display statistics\n" +
 									"8. Update (run a timestep)\n" +
-									"9. Save network\n" +
-									"10. Exit\n");
+									"9. Save network\n" + */
+									"5. Exit\n");
 				selection = sc.nextInt();
 				
 				
@@ -50,39 +50,39 @@ public class UI
 						inputNetfile();
 						break;
 						
-					case 2:	
+					/*case 2:	
 						inputProbs();
-						break;
+						break;*/
 					
-					case 3:
+					case 2:
 						nodeOp();
 						break;
 					
-					case 4:
+					case 3:
 						edgeOp();
 						break;
 					
-					case 5:
+					/*case 5:
 						addPost();
-						break;
+						break;*/
 					
-					case 6:
+					case 4:
 						sim.displayNetwork();
 						break;
 					
-					case 7:
+					/*case 7:
 						sim.displayStats();
 						break;
 					
 					case 8:
-						System.out.println("8");
+						System.out.println("Not implemented");
 						break;
 					
 					case 9:
-						System.out.println("9");
-						break;
+						System.out.println("Not implemented");
+						break;*/
 						
-					case 10:
+					case 5:
 						System.out.println("Exiting program...");
 						break;
 				}
@@ -94,7 +94,7 @@ public class UI
 				sc.nextLine();
 			}
 		
-		}while(selection != 10);
+		}while(selection != 5);
 		
 	}
 	
@@ -208,7 +208,7 @@ public class UI
 		System.out.println("Enter name: ");
 		name = sc.nextLine();
 		sim.addNode(name);
-		System.out.println("\n" + name + "added..");
+		System.out.println("\n" + name + " added..");
 	}
 	
 	/* Function: edgeOp

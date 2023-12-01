@@ -1,9 +1,9 @@
  /***************************************************************************
  *  FILE: TestLinkedList.java
- *  AUTHOR:
- *  UNIT: 
+ *  AUTHOR: Connor Beardsmore - 15504319
+ *  UNIT: DSA120 Prac 8
  *  PURPOSE: Basic Test Harness For Linked List
- *  LAST MOD: 
+ *  LAST MOD: 23/10/15
  *  REQUIRES: NONE
  *	REFERENCE: modified further from test harness given in prac 8
  ***************************************************************************/

@@ -28,7 +28,7 @@ public class UnitTestHeap
 			
 			System.out.println("\nTESTING HEAP SORT : ");
 			heap.fileIo("RandomNames7000.csv");
-			System.out.println("RandomNames7000.csv ==sorted==> SortedFile.txt");
+			System.out.println("RandomNames7000.csv ==sorted==> SortedFile.txt\n");
 			
 		}
 		catch(IllegalArgumentException e)
