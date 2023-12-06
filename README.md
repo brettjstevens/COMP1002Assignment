@@ -12,7 +12,7 @@ This project was split into four distinct parts:
  - and a simulation of a social media network
  
 Each section has a test harness that provides verification of the working code. Additionally, the social simulation can be ran manually. 
-To set code in workng order run in termenal from appropriate workspace: 
+To set code in workng order run in terminal from appropriate workspace: 
 
 ```
 javac *.java
