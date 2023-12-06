@@ -57,7 +57,7 @@ For manual use, run the following in terminal:
 ```
 java SocialSim -i
 ```
-A simple UI will appear in termianl and allow you to create and display your own netwrok.
+A simple UI will appear in terminal and allow you to create and display your own netwrok.
 
 > NOTE: Some functionality of the code is yet to be completed, hence some .java files contain additional unused code. 
  
